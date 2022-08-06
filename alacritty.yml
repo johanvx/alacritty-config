@@ -14,6 +14,7 @@ import:
   - ~/.config/alacritty/shell.yml
   - ~/.config/alacritty/key_bindings.yml
   - ~/.config/alacritty/window.yml
+  - ~/.config/alacritty/env.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
