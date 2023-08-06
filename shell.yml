@@ -9,6 +9,8 @@
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
+  # GNU/Linux
+  # program: /bin/fish
   # macOS (Apple Silicon)
   program: /opt/homebrew/bin/fish
   args:
