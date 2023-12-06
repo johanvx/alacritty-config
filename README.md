@@ -6,4 +6,4 @@
 
 ## Dependencies
 
-- Hack Nerd Font
+- MonaspiceNe Nerd Font (Monaspace Nerd Font)
