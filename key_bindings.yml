@@ -235,7 +235,7 @@ key_bindings:
   #- { key: V,                           mode: Vi|~Search, action: ToggleNormalSelection   }
   #- { key: V,      mods: Shift,         mode: Vi|~Search, action: ToggleLineSelection     }
   #- { key: V,      mods: Control,       mode: Vi|~Search, action: ToggleBlockSelection    }
-  - { key: V,      mods: Shift|Control,  mode: Vi|~Search, action: ToggleSemanticSelection }
+  #- { key: V,      mods: Alt,           mode: Vi|~Search, action: ToggleSemanticSelection }
   #- { key: Return,                      mode: Vi|~Search, action: Open                    }
   #- { key: K,                           mode: Vi|~Search, action: Up                      }
   #- { key: J,                           mode: Vi|~Search, action: Down                    }
@@ -262,7 +262,7 @@ key_bindings:
   #- { key: Slash,  mods: Shift,         mode: Vi|~Search, action: SearchBackward          }
   #- { key: N,                           mode: Vi|~Search, action: SearchNext              }
   #- { key: N,      mods: Shift,         mode: Vi|~Search, action: SearchPrevious          }
-  - { key: Escape, mods: Control,                         action: ToggleViMode            }
+  - { key: Return,  mods: Control,       mode: ~Search,    action: ToggleViMode            }
 
   # Search Mode
   #- { key: Return,                mode: Search|Vi,  action: SearchConfirm         }
