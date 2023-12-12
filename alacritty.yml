@@ -9,7 +9,7 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-  - ~/.config/alacritty/kagayaku.yml
+  - ~/.config/alacritty/matataki.yml
   - ~/.config/alacritty/font.yml
   - ~/.config/alacritty/shell.yml
   - ~/.config/alacritty/key_bindings.yml
