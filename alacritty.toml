@@ -1,0 +1,90 @@
+[env]
+TERM = "alacritty"
+
+[window]
+decorations = "Full"
+
+[font]
+size = 24.0
+
+[font.normal]
+family = "MonaspiceNe Nerd Font"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "#475569"
+blue = "#60a5fa"
+cyan = "#7dd3fc"
+green = "#5eead4"
+magenta = "#f9a8d4"
+red = "#fb7185"
+white = "#f8fafc"
+yellow = "#fde68a"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.footer_bar]
+background = "#0f172a"
+foreground = "#f8fafc"
+
+[colors.hints.end]
+background = "#0f172a"
+foreground = "#38bdf8"
+
+[colors.hints.start]
+background = "#0ea5e9"
+foreground = "#f8fafc"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black = "#0f172a"
+blue = "#3b82f6"
+cyan = "#38bdf8"
+green = "#2dd4bf"
+magenta = "#f472b6"
+red = "#f43f5e"
+white = "#94a3b8"
+yellow = "#fcd34d"
+
+[colors.primary]
+background = "#0f172a"
+bright_foreground = "#ffffff"
+foreground = "#f8fafc"
+
+[colors.search.focused_match]
+background = "#0ea5e9"
+foreground = "#f8fafc"
+
+[colors.search.matches]
+background = "#0369a1"
+foreground = "#f8fafc"
+
+[colors.selection]
+background = "#334155"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[shell]
+args = ["--login", "--command", "exec tmux"]
+program = "/opt/homebrew/bin/fish"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Return"
+mode = "~Search"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "T"
+mods = "Command"
