@@ -5,7 +5,7 @@ TERM = "alacritty"
 decorations = "Full"
 
 [font]
-size = 24.0
+size = 30.0
 
 [font.normal]
 family = "MonaspiceNe Nerd Font"
@@ -14,14 +14,14 @@ family = "MonaspiceNe Nerd Font"
 draw_bold_text_with_bright_colors = false
 
 [colors.bright]
-black = "#475569"
-blue = "#60a5fa"
-cyan = "#7dd3fc"
-green = "#5eead4"
-magenta = "#f9a8d4"
-red = "#fb7185"
-white = "#f8fafc"
-yellow = "#fde68a"
+black = '#64748b'   # slate.500
+blue = '#7dd3fc'    # sky.300
+cyan = '#a5f3fc'    # cyan.200
+green = '#5eead4'   # teal.300
+magenta = '#f9a8d4' # pink.300
+red = '#fb7185'     # red.400
+white = '#f1f5f9'   # slate.100
+yellow = '#fde047'  # yellow.300
 
 [colors.cursor]
 cursor = "CellForeground"
@@ -36,7 +36,7 @@ background = "#0f172a"
 foreground = "#38bdf8"
 
 [colors.hints.start]
-background = "#0ea5e9"
+background = "#38bdf8"
 foreground = "#f8fafc"
 
 [colors.line_indicator]
@@ -44,14 +44,14 @@ background = "None"
 foreground = "None"
 
 [colors.normal]
-black = "#0f172a"
-blue = "#3b82f6"
-cyan = "#38bdf8"
-green = "#2dd4bf"
-magenta = "#f472b6"
-red = "#f43f5e"
-white = "#94a3b8"
-yellow = "#fcd34d"
+black = '#0f172a'   # slate.900
+blue = '#38bdf8'    # sky.400
+cyan = '#67e8f9'    # cyan.300
+green = '#2dd4bf'   # teal.400
+magenta = '#f472b6' # pink.400
+red = '#f43f5e'     # rose.500
+white = '#cbd5e1'   # slate.300
+yellow = '#facc15'  # yellow.400
 
 [colors.primary]
 background = "#0f172a"
@@ -59,15 +59,15 @@ bright_foreground = "#ffffff"
 foreground = "#f8fafc"
 
 [colors.search.focused_match]
-background = "#0ea5e9"
-foreground = "#f8fafc"
+background = "#67e8f9" # cyan.300
+foreground = "#0f172a" # slate.900
 
 [colors.search.matches]
-background = "#0369a1"
-foreground = "#f8fafc"
+background = "#164e63" # cyan.900
+foreground = "#f8fafc" # slate.100
 
 [colors.selection]
-background = "#334155"
+background = "#164e63"  # cyan.900
 text = "CellForeground"
 
 [colors.vi_mode_cursor]
