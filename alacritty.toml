@@ -108,9 +108,6 @@ mouse.enabled = true
 binding = { key = "L", mods = "Control|Shift" }
 regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
 
-[shell]
-program = "tmux"
-
 [[keyboard.bindings]]
 action = "ToggleViMode"
 key = "Return"
