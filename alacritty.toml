@@ -4,12 +4,12 @@ TERM = "xterm-256color"
 [window]
 decorations = "Full"
 dynamic_padding = true
-dimensions = { lines = 20, columns = 60 }
+dimensions = { lines = 25, columns = 100 }
 # On macOS
 option_as_alt = "OnlyLeft"
 
 [font]
-size = 30.0
+size = 20.0
 
 [font.normal]
 family = "MonaspiceNe Nerd Font"
