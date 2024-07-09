@@ -1,3 +1,8 @@
+import = [
+  "~/.config/alacritty/lettepa-dark.toml",
+  # "~/.config/alacritty/lettepa-light.toml",
+]
+
 [env]
 TERM = "xterm-256color"
 
@@ -13,76 +18,6 @@ size = 20.0
 
 [font.normal]
 family = "MonaspiceNe Nerd Font"
-
-[colors.bright]
-black = "#64748b"   # slate.500
-blue = "#93c5fd"    # blue.300
-cyan = "#a5f3fc"    # cyan.200
-green = "#5eead4"   # teal.300
-magenta = "#f9a8d4" # pink.300
-red = "#fb7185"     # red.400
-white = "#f1f5f9"   # slate.100
-yellow = "#fde047"  # yellow.300
-
-[colors.cursor]
-cursor = "CellForeground"
-text = "CellBackground"
-
-[colors.dim]
-black = "#0f172a"   # slate.900
-blue = "#60a5fa"    # blue.400
-cyan = "#67e8f9"    # cyan.300
-green = "#2dd4bf"   # teal.400
-magenta = "#f472b6" # pink.400
-red = "#f43f5e"     # rose.500
-white = "#cbd5e1"   # slate.300
-yellow = "#facc15"  # yellow.400
-
-[colors.footer_bar]
-background = "#0f172a" # slate.900
-foreground = "#f8fafc" # slate.100
-
-[colors.hints.end]
-background = "#f43f5e" # rose.500
-foreground = "#f8fafc" # slate.100
-
-[colors.hints.start]
-background = "#f43f5e" # rose.500
-foreground = "#f8fafc" # slate.100
-
-[colors.line_indicator]
-background = "None"
-foreground = "None"
-
-[colors.normal]
-black = "#0f172a"   # slate.900
-blue = "#60a5fa"    # blue.400
-cyan = "#67e8f9"    # cyan.300
-green = "#2dd4bf"   # teal.400
-magenta = "#f472b6" # pink.400
-red = "#f43f5e"     # rose.500
-white = "#cbd5e1"   # slate.300
-yellow = "#facc15"  # yellow.400
-
-[colors.primary]
-background = "#0f172a" # slate.900
-foreground = "#cbd5e1" # slate.300
-
-[colors.search.focused_match]
-background = "#67e8f9" # cyan.300
-foreground = "#0f172a" # slate.900
-
-[colors.search.matches]
-background = "#164e63" # cyan.900
-foreground = "#cbd5e1" # slate.300
-
-[colors.selection]
-background = "#164e63"  # cyan.900
-text = "CellForeground"
-
-[colors.vi_mode_cursor]
-background = "#60a5fa" # blue.400
-text = "#0f172a"       # slate.900
 
 [cursor.vi_mode_style]
 blinking = "On"
