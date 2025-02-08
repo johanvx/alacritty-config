@@ -1,8 +1,3 @@
-import = [
-  "~/.config/alacritty/lettepa-dark.toml",
-  # "~/.config/alacritty/lettepa-light.toml",
-]
-
 [env]
 TERM = "xterm-256color"
 
@@ -65,3 +60,9 @@ action = "Last"
 key = "L"
 mods = "Shift"
 mode = "Vi|~Search"
+
+[general]
+import = [
+  "~/.config/alacritty/lettepa-dark.toml",
+  # "~/.config/alacritty/lettepa-light.toml",
+]
